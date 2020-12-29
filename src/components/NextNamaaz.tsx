@@ -1,5 +1,4 @@
 import React from 'react'
-import { Namaaz } from '../ConvertTimetableToJSON'; 
 import { timeFormatter } from '../helpers/timeFormatter';
 
 interface IProps {
