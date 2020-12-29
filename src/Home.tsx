@@ -4,7 +4,7 @@ import { getNamaaz } from './helpers/getTodaysNamaazTimes';
 import { timeFormatter } from './helpers/timeFormatter';
 import NextNamaaz from './components/NextNamaaz';
 
-const ConvertTimetableToJSON = () => {
+const Home = () => {
     const namaaz = getNamaaz();
 
     return (
@@ -20,4 +20,4 @@ const ConvertTimetableToJSON = () => {
     )
 }
 
-export default ConvertTimetableToJSON
+export default Home

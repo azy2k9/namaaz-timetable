@@ -1,10 +1,10 @@
 import React from 'react';
-import ConvertTimetableToJSON from './ConvertTimetableToJSON';
+import Home from './Home';
 
 const App = () => {
   return (
     <div className="App">
-      <ConvertTimetableToJSON />
+      <Home />
     </div>
   );
 }
