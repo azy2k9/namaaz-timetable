@@ -2,11 +2,12 @@ import React from 'react';
 import moment, { MomentInput } from 'moment';
 import data from './data/timetable.json';
 import { parseTime } from './helpers/parseTime';
-import { getTodaysNamaazTimes } from './helpers/getTodaysNamaazTimes';
-import { Spinner } from '@chakra-ui/react';
+import { getNamaazTimes } from './helpers/getTodaysNamaazTimes';
+import { timeFormatter } from './helpers/timeFormatter';
+import NextNamaaz from './components/NextNamaaz';
 
-const getTimes = () => {
-    const todaysNamaazTimes = getTodaysNamaazTimes(data);
+const getTimes = (date: moment.Moment) => {
+    const todaysNamaazTimes = getNamaazTimes(data, date);
 
     if (todaysNamaazTimes) {
         const fajr = parseTime(todaysNamaazTimes.starts.Fajr);
@@ -28,81 +29,112 @@ const getTimes = () => {
 
 }
 
-interface Namaaz {
-    namaaz: 'Fajr' | 'Zuhr' | 'Asr' | 'Maghrib' | 'Isha',
-    time: MomentInput
+export interface Namaaz {
+    namaaz: 'Fajr' | 'Zuhr' | 'Asr' | 'Maghrib' | 'Isha' | 'No Namaaz'
+    time: MomentInput | moment.Moment
 }
 
-const getNextNamaaz = (): Namaaz | null => {    
-    const today = getTimes();
+export interface CurrentAndNextNamaaz {
+    currentNamaaz: Namaaz
+    nextNamaaz: Namaaz
+}
 
-    const fajr = moment().isSameOrAfter(today?.fajr) && moment().isBefore(today?.sunrise);
-    const zuhr = moment().isSameOrAfter(today?.zuhr) && moment().isBefore(today?.asr);
-    const asr = moment().isSameOrAfter(today?.asr) && moment().isBefore(today?.maghrib);
-    const maghrib = moment().isSameOrAfter(today?.maghrib) && moment().isBefore(today?.isha);
-    const isha = moment().isSameOrAfter(today?.isha);
+const getNamaaz = (): CurrentAndNextNamaaz  => {
+    const today = getTimes(moment());
+    const tomorrow = getTimes(moment().add(1, 'day'));
 
-    console.log(fajr)
-    console.log(zuhr)
-    console.log(asr)
-    console.log(maghrib)
-    console.log(isha)
-    
-    if (fajr) {
-        console.log('fajr')
+    const inFajr = moment().isSameOrAfter(today?.fajr) && moment().isBefore(today?.sunrise);
+    const inZuhr = moment().isSameOrAfter(today?.zuhr) && moment().isBefore(today?.asr);
+    const inAsr = moment().isSameOrAfter(today?.asr) && moment().isBefore(today?.maghrib);
+    const inMaghrib = moment().isSameOrAfter(today?.maghrib) && moment().isBefore(today?.isha);
+    const inIsha = moment().isSameOrAfter(today?.isha);
+
+    const fajr: Namaaz = {    
+        namaaz: 'Fajr',
+        time: moment(today?.fajr)
+    };
+
+    const zuhr: Namaaz = {    
+        namaaz: 'Zuhr',
+        time: moment(today?.zuhr)
+    };
+
+    const asr: Namaaz = {    
+        namaaz: 'Asr',
+        time: moment(today?.asr)
+    };
+
+    const maghrib: Namaaz = {    
+        namaaz: 'Maghrib',
+        time: moment(today?.maghrib)
+    };
+
+    const isha: Namaaz = {    
+        namaaz: 'Isha',
+        time: moment(today?.isha)
+    };
+
+    const fajrTomorrow: Namaaz = {    
+        namaaz: 'Fajr',
+        time: moment(tomorrow?.fajr)
+    };
+
+    if (inFajr) {
         return {
-            namaaz: 'Fajr',
-            time: moment(today?.fajr)
+            currentNamaaz: fajr,
+            nextNamaaz: zuhr
         }
     }
     
-    if (zuhr) {
-        console.log('zuhr')
+    if (inZuhr) {
         return {
-            namaaz: 'Zuhr',
-            time: moment(today?.zuhr)
+            currentNamaaz: zuhr,
+            nextNamaaz: asr
         }
     }
 
-    if (asr) {
-        console.log('asr')
+    if (inAsr) {
         return {
-            namaaz: 'Asr',
-            time: moment(today?.asr)
+            currentNamaaz: asr,
+            nextNamaaz: maghrib
         }
     }
 
-    if (maghrib) {
-        console.log('maghrib')
+    if (inMaghrib) {
         return {
-            namaaz: 'Maghrib',
-            time: moment(today?.maghrib)
+            currentNamaaz: maghrib,
+            nextNamaaz: isha
         }
     }
 
-    if (isha) {
-        console.log('isha')
+    if (inIsha) {
         return {
-            namaaz: 'Isha',
-            time: moment(today?.isha)
+            currentNamaaz: isha,
+            nextNamaaz: fajrTomorrow
         }
     }
 
-
-    return null;
+    // if we are not in namaaz time, its probably because sunrise has been and we are not in zuhr time yet
+    return {
+        currentNamaaz: {
+            namaaz: 'No Namaaz',
+            time: 'No Namaaz'
+        },
+        nextNamaaz: zuhr
+    };
 }
 
 const ConvertTimetableToJSON = () => {
-    const nextNamaaz = getNextNamaaz();
-    
+    const namaaz = getNamaaz();
+
     return (
         <>
             <h1>DateTime right now: {moment().format('LLLL')}</h1>
-            {nextNamaaz === null && (
-                <Spinner size="large" />
-            )}
-            {nextNamaaz && (
-                <p>Next Namaaz: {nextNamaaz.namaaz} at {nextNamaaz.time}</p>
+            {namaaz && (
+                <>
+                    <p>{namaaz.currentNamaaz.namaaz} started at {timeFormatter(namaaz.currentNamaaz.time)}</p>
+                    <NextNamaaz namaaz={namaaz.nextNamaaz} />
+                </>
             )}
         </>
     )

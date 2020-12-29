@@ -20,8 +20,7 @@ export interface Row {
     date: string
 }
 
-export const getTodaysNamaazTimes = (data: Array<Row>) => {
-    const today = moment();
-    const todaysNamaazTimes = data.filter((row: Row) => today.isSame(moment(row.date + "2020"), 'day')).shift();
-    return todaysNamaazTimes;
+export const getNamaazTimes = (data: Array<Row>, date: moment.Moment) => {
+    const namaazTimes = data.filter((row: Row) => date.isSame(moment(row.date + "2020"), 'day')).shift();
+    return namaazTimes;
 }
