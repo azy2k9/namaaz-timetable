@@ -1,3 +1,4 @@
+import { Text } from '@chakra-ui/react';
 import React from 'react'
 import { timeFormatter } from '../helpers/timeFormatter';
 
@@ -7,9 +8,12 @@ interface IProps {
 
 const NextNamaaz = ({ namaaz }: IProps) => {
     return (
-        <div>
-            <p>{namaaz.namaaz} is at {timeFormatter(namaaz.time)}</p>
-        </div>
+        <>
+            <Text fontSize="4xl" style={{ textAlign: 'center' }}>
+                {namaaz.namaaz}
+                <Text fontSize="4xl">{timeFormatter(namaaz.time)}</Text>
+            </Text>
+        </>
     )
 }
 
