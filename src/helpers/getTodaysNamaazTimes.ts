@@ -33,7 +33,7 @@ export interface CurrentAndNextNamaaz {
  * @param date - the date for which namaaz times should be returned
  */
 const filterNamaazTimetable = (data: Array<TimetableDataRow>, date: moment.Moment) => {
-    const namaazTimes = data.filter((row: TimetableDataRow) => date.isSame(moment(row.date + "2020"), 'day')).shift();
+    const namaazTimes = data.filter((row: TimetableDataRow) => date.isSame(moment(row.date), 'day')).shift();
     return namaazTimes;
 }
 
@@ -74,7 +74,10 @@ const getNamaazTimes = (date: moment.Moment) => {
  */
 export const getNamaaz = (): CurrentAndNextNamaaz  => {
     const today = getNamaazTimes(moment());
+    console.log("today", today)
+    
     const tomorrow = getNamaazTimes(moment().add(1, 'day'));
+    console.log("tomorrow", tomorrow);
 
     const inFajr = moment().isSameOrAfter(today?.fajr) && moment().isBefore(today?.sunrise);
     const inZuhr = moment().isSameOrAfter(today?.zuhr) && moment().isBefore(today?.asr);
