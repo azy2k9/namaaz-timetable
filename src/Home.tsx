@@ -10,7 +10,9 @@ const Home = () => {
     return (
         <>
             <h1>DateTime right now: {moment().format('LLLL')}</h1>
-            {namaaz && (
+            {namaaz && namaaz.currentNamaaz.namaaz === 'No Namaaz' ? (
+                <p>No Namaaz right now</p>
+            ) : (
                 <>
                     <p>{namaaz.currentNamaaz.namaaz} started at {timeFormatter(namaaz.currentNamaaz.time)}</p>
                     <NextNamaaz namaaz={namaaz.nextNamaaz} />
