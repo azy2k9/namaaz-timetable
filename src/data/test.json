@@ -1,0 +1,78 @@
+[
+    {
+      "jamaat": {
+        "Isha": "7.3 pm",
+        "Maghrib": "4.04 pm",
+        "Asr": "3 pm",
+        "Zuhr": "1 pm",
+        "Fajr": "7.3 am"
+      },
+      "zawaal": "11.09 am",
+      "starts": {
+        "Isha": "8.47 pm",
+        "Maghrib": "8.46 pm",
+        "Asr": "2.17 pm",
+        "Zuhr": "12.14 pm",
+        "Sunrise": "8.22 am",
+        "Fajr": "6.14 am"
+      },
+      "date": "Sat 2 Jan 2021"
+    },
+    {
+      "jamaat": {
+        "Isha": "7.3 pm",
+        "Maghrib": "4.06 pm",
+        "Asr": "3 pm",
+        "Zuhr": "1 pm",
+        "Fajr": "7.3 am"
+      },
+      "zawaal": "11.09 am",
+      "starts": {
+        "Isha": "6.13 pm",
+        "Maghrib": "4.06 pm",
+        "Asr": "2.19 pm",
+        "Zuhr": "12.14 pm",
+        "Sunrise": "8.22 am",
+        "Fajr": "8.49 pm"
+      },
+      "date": "Sun 3 Jan 2021"
+    },
+    {
+      "jamaat": {
+        "Isha": "7.3 pm",
+        "Maghrib": "4.07 pm",
+        "Asr": "3 pm",
+        "Zuhr": "1 pm",
+        "Fajr": "7.3 am"
+      },
+      "zawaal": "11.1 am",
+      "starts": {
+        "Isha": "6.14 pm",
+        "Maghrib": "4.07 pm",
+        "Asr": "2.2 pm",
+        "Zuhr": "12.15 pm",
+        "Sunrise": "8.22 am",
+        "Fajr": "6.14 am"
+      },
+      "date": "Mon 4 Jan 2021"
+    },
+    {
+      "jamaat": {
+        "Isha": "7.3 pm",
+        "Maghrib": "4.08 pm",
+        "Asr": "3 pm",
+        "Zuhr": "1 pm",
+        "Fajr": "7.3 am"
+      },
+      "zawaal": "11.1 am",
+      "starts": {
+        "Isha": "6.16 pm",
+        "Maghrib": "4.08 pm",
+        "Asr": "2.21 pm",
+        "Zuhr": "12.15 pm",
+        "Sunrise": "8.21 am",
+        "Fajr": "6.14 am"
+      },
+      "date": "Tue 5 Jan 2021"
+    }
+]
