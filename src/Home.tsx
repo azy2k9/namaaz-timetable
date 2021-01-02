@@ -15,6 +15,7 @@ const Home = () => {
 
     useEffect(() => {
         setTimeout(() => {
+            console.log(moment().toLocaleString())
             setReRenderMechanism(moment());
         }, whenToReRender);
     }, [reRenderMechanism, setReRenderMechanism, whenToReRender])
