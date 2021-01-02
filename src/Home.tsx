@@ -15,10 +15,9 @@ const Home = () => {
 
     useEffect(() => {
         setTimeout(() => {
-            console.log(whenToReRender);
             setReRenderMechanism(moment());
         }, whenToReRender);
-    }, [reRenderMechanism, whenToReRender])
+    }, [reRenderMechanism, setReRenderMechanism, whenToReRender])
 
     return (
         <>

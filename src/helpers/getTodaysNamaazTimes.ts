@@ -1,4 +1,5 @@
 import moment from 'moment';
+// import data from '../data/test.json';
 import data from '../data/january_2021_timetable.json';
 import { parseTime } from '../helpers/parseTime';
 export interface TimetableDataRow {
@@ -33,7 +34,7 @@ export interface CurrentAndNextNamaaz {
  * @param date - the date for which namaaz times should be returned
  */
 const filterNamaazTimetable = (data: Array<TimetableDataRow>, date: moment.Moment) => {
-    const namaazTimes = data.filter((row: TimetableDataRow) => date.isSame(moment(row.date), 'day')).shift();
+    const namaazTimes = data.filter((row: TimetableDataRow) => date.isSame(row.date, 'day')).shift();
     return namaazTimes;
 }
 
@@ -46,12 +47,12 @@ const getNamaazTimes = (date: moment.Moment) => {
     const todaysNamaazTimes = filterNamaazTimetable(data, date);
 
     if (todaysNamaazTimes) {
-        const fajr = parseTime(todaysNamaazTimes.starts.Fajr);
-        const sunrise = parseTime(todaysNamaazTimes.starts.Sunrise);
-        const zuhr = parseTime(todaysNamaazTimes.starts.Zuhr);
-        const asr = parseTime(todaysNamaazTimes.starts.Asr);
-        const maghrib = parseTime(todaysNamaazTimes.starts.Maghrib);
-        const isha = parseTime(todaysNamaazTimes.starts.Isha);
+        const fajr = parseTime(todaysNamaazTimes.starts.Fajr, date.get('date'));
+        const sunrise = parseTime(todaysNamaazTimes.starts.Sunrise, date.get('date'));
+        const zuhr = parseTime(todaysNamaazTimes.starts.Zuhr, date.get('date'));
+        const asr = parseTime(todaysNamaazTimes.starts.Asr, date.get('date'));
+        const maghrib = parseTime(todaysNamaazTimes.starts.Maghrib, date.get('date'));
+        const isha = parseTime(todaysNamaazTimes.starts.Isha, date.get('date'));
 
         return {
             fajr,
@@ -62,7 +63,6 @@ const getNamaazTimes = (date: moment.Moment) => {
             isha,
         }
     }
-
 }
 
 /**
@@ -72,7 +72,7 @@ const getNamaazTimes = (date: moment.Moment) => {
  * @type CurrentAndNextNamaaz
  * @returns CurrentAndNextNamaaz
  */
-export const getNamaaz = (): CurrentAndNextNamaaz  => {
+export const getNamaaz = (): CurrentAndNextNamaaz => {
     const today = getNamaazTimes(moment());
     const tomorrow = getNamaazTimes(moment().add(1, 'day'));
 
@@ -82,32 +82,32 @@ export const getNamaaz = (): CurrentAndNextNamaaz  => {
     const inMaghrib = moment().isSameOrAfter(today?.maghrib) && moment().isBefore(today?.isha);
     const inIsha = moment().isSameOrAfter(today?.isha);
 
-    const fajr: Namaaz = {    
+    const fajr: Namaaz = {
         namaaz: 'Fajr',
         time: moment(today?.fajr)
     };
 
-    const zuhr: Namaaz = {    
+    const zuhr: Namaaz = {
         namaaz: 'Zuhr',
         time: moment(today?.zuhr)
     };
 
-    const asr: Namaaz = {    
+    const asr: Namaaz = {
         namaaz: 'Asr',
         time: moment(today?.asr)
     };
 
-    const maghrib: Namaaz = {    
+    const maghrib: Namaaz = {
         namaaz: 'Maghrib',
         time: moment(today?.maghrib)
     };
 
-    const isha: Namaaz = {    
+    const isha: Namaaz = {
         namaaz: 'Isha',
         time: moment(today?.isha)
     };
 
-    const fajrTomorrow: Namaaz = {    
+    const fajrTomorrow: Namaaz = {
         namaaz: 'Fajr',
         time: moment(tomorrow?.fajr)
     };
@@ -118,7 +118,7 @@ export const getNamaaz = (): CurrentAndNextNamaaz  => {
             nextNamaaz: zuhr
         }
     }
-    
+
     if (inZuhr) {
         return {
             currentNamaaz: zuhr,

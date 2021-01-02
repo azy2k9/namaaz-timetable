@@ -19,7 +19,7 @@ export const TIME_MAPPINGS: TimeMapping<number> = {
     11: 23,
 };
 
-export const parseTime = (time: string): string => {
+export const parseTime = (time: string, date: number): string => {
     const twelveHR = parseInt(time.split('.')[0]);
     const minutes = parseInt(time.split('.')[1]);
     const meridiem = time.split(' ')[1];
@@ -30,7 +30,6 @@ export const parseTime = (time: string): string => {
         twentyFourHour = TIME_MAPPINGS[twelveHR];
     }
     
-
-    const parsedTime = moment().set('hour', twentyFourHour).set('minutes', minutes).toLocaleString();
+    const parsedTime = moment().set('date', date).set('hour', twentyFourHour).set('minutes', minutes).toLocaleString();
     return parsedTime;
 }
