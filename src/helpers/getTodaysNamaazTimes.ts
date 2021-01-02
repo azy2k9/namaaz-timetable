@@ -1,5 +1,5 @@
 import moment from 'moment';
-import data from '../data/timetable.json';
+import data from '../data/january_2021_timetable.json';
 import { parseTime } from '../helpers/parseTime';
 export interface TimetableDataRow {
     jamaat: {
@@ -9,7 +9,7 @@ export interface TimetableDataRow {
         Zuhr: string
         Fajr: string
     },
-    zawal: string
+    zawaal: string
     starts: {
         Isha: string
         Maghrib: string
