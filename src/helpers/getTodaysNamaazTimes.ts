@@ -1,6 +1,5 @@
 import moment from 'moment';
-// import data from '../data/test.json';
-import data from '../data/january_2021_timetable.json';
+import data from '../data/current_month.json';
 import { parseTime } from '../helpers/parseTime';
 export interface TimetableDataRow {
     jamaat: {
