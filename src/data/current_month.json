@@ -1,534 +1,591 @@
 [
     {
         "jamaat": {
-            "Isha": "7.45 pm",
-            "Maghrib": "4.54 pm",
-            "Asr": "3.45 pm",
+            "Isha": "8.15 pm",
+            "Maghrib": "5.49 pm",
+            "Asr": "4.30 pm",
             "Zuhr": "1.00 pm",
-            "Fajr": "7.00 am"
-        },
-        "zawaal": "11.23 am",
-        "starts": {
-            "Isha": "6.54 pm",
-            "Maghrib": "4.54 pm",
-            "Asr": "3.05 pm",
-            "Zuhr": "12.23 pm",
-            "Sunrise": "7.51 am",
-            "Fajr": "5.52 am"
-        },
-        "date": "Mon 1 Feb 2021"
-    },
-    {
-        "jamaat": {
-            "Isha": "7.45 pm",
-            "Maghrib": "4.56 pm",
-            "Asr": "3.45 pm",
-            "Zuhr": "1.00 pm",
-            "Fajr": "7.00 am"
-        },
-        "zawaal": "11.23 am",
-        "starts": {
-            "Isha": "6.55 pm",
-            "Maghrib": "4.56 pm",
-            "Asr": "3.06 pm",
-            "Zuhr": "12.23 pm",
-            "Sunrise": "7.50 am",
-            "Fajr": "5.51 am"
-        },
-        "date": "Tue 2 Feb 2021"
-    },
-    {
-        "jamaat": {
-            "Isha": "7.45 pm",
-            "Maghrib": "4.58 pm",
-            "Asr": "3.45 pm",
-            "Zuhr": "1.00 pm",
-            "Fajr": "7.00 am"
-        },
-        "zawaal": "11.23 am",
-        "starts": {
-            "Isha": "6.57 pm",
-            "Maghrib": "4.58 pm",
-            "Asr": "3.08 pm",
-            "Zuhr": "12.23 pm",
-            "Sunrise": "7.48 am",
-            "Fajr": "5.49 am"
-        },
-        "date": "Wed 3 Feb 2021"
-    },
-    {
-        "jamaat": {
-            "Isha": "7.45 pm",
-            "Maghrib": "5.00 pm",
-            "Asr": "3.45 pm",
-            "Zuhr": "1.00 pm",
-            "Fajr": "7.00 am"
+            "Fajr": "6.00 am"
         },
         "zawaal": "11.24 am",
         "starts": {
-            "Isha": "6.59 pm",
-            "Maghrib": "5.00 pm",
-            "Asr": "3.10 pm",
-            "Zuhr": "12.23 pm",
-            "Sunrise": "7.46 am",
-            "Fajr": "5.48 am"
+            "Isha": "7.44 pm",
+            "Maghrib": "5.49 pm",
+            "Asr": "3.55 pm",
+            "Zuhr": "12.22 pm",
+            "Sunrise": "6.54 am",
+            "Fajr": "5.00 am"
         },
-        "date": "Thu 4 Feb 2021"
+        "date": "Mon 1 Mar 2021"
     },
     {
         "jamaat": {
-            "Isha": "7.45 pm",
-            "Maghrib": "5.02 pm",
-            "Asr": "3.45 pm",
+            "Isha": "8.15 pm",
+            "Maghrib": "5.51 pm",
+            "Asr": "4.30 pm",
+            "Zuhr": "1.00 pm",
+            "Fajr": "6.00 am"
+        },
+        "zawaal": "11.24 am",
+        "starts": {
+            "Isha": "7.46 pm",
+            "Maghrib": "5.51 pm",
+            "Asr": "3.56 pm",
+            "Zuhr": "12.22 pm",
+            "Sunrise": "6.52 am",
+            "Fajr": "4.58 am"
+        },
+        "date": "Tue 2 Mar 2021"
+    },
+    {
+        "jamaat": {
+            "Isha": "8.15 pm",
+            "Maghrib": "5.53 pm",
+            "Asr": "4.30 pm",
+            "Zuhr": "1.00 pm",
+            "Fajr": "6.00 am"
+        },
+        "zawaal": "11.24 am",
+        "starts": {
+            "Isha": "7.48 pm",
+            "Maghrib": "5.53 pm",
+            "Asr": "3.58 pm",
+            "Zuhr": "12.21 pm",
+            "Sunrise": "6.50 am",
+            "Fajr": "4.55 am"
+        },
+        "date": "Wed 3 Mar 2021"
+    },
+    {
+        "jamaat": {
+            "Isha": "8.15 pm",
+            "Maghrib": "5.55 pm",
+            "Asr": "4.30 pm",
+            "Zuhr": "1.00 pm",
+            "Fajr": "6.00 am"
+        },
+        "zawaal": "11.23 am",
+        "starts": {
+            "Isha": "7.50 pm",
+            "Maghrib": "5.55 pm",
+            "Asr": "3.59 pm",
+            "Zuhr": "12.21 pm",
+            "Sunrise": "6.47 am",
+            "Fajr": "4.53 am"
+        },
+        "date": "Thu 4 Mar 2021"
+    },
+    {
+        "jamaat": {
+            "Isha": "8.15 pm",
+            "Maghrib": "5.57 pm",
+            "Asr": "4.30 pm",
             "Zuhr": "12.45 pm",
-            "Fajr": "7.00 am"
+            "Fajr": "6.00 am"
         },
-        "zawaal": "11.24 am",
+        "zawaal": "11.23 am",
         "starts": {
-            "Isha": "7.00 pm",
-            "Maghrib": "5.02 pm",
-            "Asr": "3.12 pm",
-            "Zuhr": "12.23 pm",
-            "Sunrise": "7.44 am",
-            "Fajr": "5.46 am"
+            "Isha": "7.52 pm",
+            "Maghrib": "5.57 pm",
+            "Asr": "4.01 pm",
+            "Zuhr": "12.21 pm",
+            "Sunrise": "6.45 am",
+            "Fajr": "4.50 am"
         },
-        "date": "Fri 5 Feb 2021"
+        "date": "Fri 5 Mar 2021"
     },
     {
         "jamaat": {
-            "Isha": "7.45 pm",
-            "Maghrib": "5.04 pm",
-            "Asr": "4.00 pm",
+            "Isha": "8.30 pm",
+            "Maghrib": "5.59 pm",
+            "Asr": "4.45 pm",
             "Zuhr": "1.00 pm",
-            "Fajr": "6.45 am"
-        },
-        "zawaal": "11.24 am",
-        "starts": {
-            "Isha": "7.02 pm",
-            "Maghrib": "5.04 pm",
-            "Asr": "3.14 pm",
-            "Zuhr": "12.23 pm",
-            "Sunrise": "7.43 am",
             "Fajr": "5.45 am"
         },
-        "date": "Sat 6 Feb 2021"
-    },
-    {
-        "jamaat": {
-            "Isha": "7.45 pm",
-            "Maghrib": "5.06 pm",
-            "Asr": "4.00 pm",
-            "Zuhr": "1.00 pm",
-            "Fajr": "6.45 am"
-        },
-        "zawaal": "11.24 am",
+        "zawaal": "11.23 am",
         "starts": {
-            "Isha": "7.04 pm",
-            "Maghrib": "5.06 pm",
-            "Asr": "3.15 pm",
-            "Zuhr": "12.24 pm",
-            "Sunrise": "7.41 am",
-            "Fajr": "5.43 am"
+            "Isha": "7.54 pm",
+            "Maghrib": "5.59 pm",
+            "Asr": "4.03 pm",
+            "Zuhr": "12.21 pm",
+            "Sunrise": "6.42 am",
+            "Fajr": "4.48 am"
         },
-        "date": "Sun 7 Feb 2021"
+        "date": "Sat 6 Mar 2021"
     },
     {
         "jamaat": {
-            "Isha": "7.45 pm",
-            "Maghrib": "5.08 pm",
-            "Asr": "4.00 pm",
+            "Isha": "8.30 pm",
+            "Maghrib": "6.01 pm",
+            "Asr": "4.45 pm",
             "Zuhr": "1.00 pm",
-            "Fajr": "6.45 am"
+            "Fajr": "5.45 am"
         },
-        "zawaal": "11.24 am",
+        "zawaal": "11.23 am",
         "starts": {
-            "Isha": "7.06 pm",
-            "Maghrib": "5.08 pm",
-            "Asr": "3.17 pm",
-            "Zuhr": "12.24 pm",
-            "Sunrise": "7.39 am",
-            "Fajr": "5.42 am"
+            "Isha": "7.56 pm",
+            "Maghrib": "6.01 pm",
+            "Asr": "4.04 pm",
+            "Zuhr": "12.20 pm",
+            "Sunrise": "6.40 am",
+            "Fajr": "4.45 am"
         },
-        "date": "Mon 8 Feb 2021"
+        "date": "Sun 7 Mar 2021"
     },
     {
         "jamaat": {
-            "Isha": "7.45 pm",
-            "Maghrib": "5.10 pm",
-            "Asr": "4.00 pm",
+            "Isha": "8.30 pm",
+            "Maghrib": "6.03 pm",
+            "Asr": "4.45 pm",
             "Zuhr": "1.00 pm",
-            "Fajr": "6.45 am"
+            "Fajr": "5.45 am"
         },
-        "zawaal": "11.25 am",
+        "zawaal": "11.22 am",
         "starts": {
-            "Isha": "7.07 pm",
-            "Maghrib": "5.10 pm",
-            "Asr": "3.19 pm",
-            "Zuhr": "12.24 pm",
-            "Sunrise": "7.37 am",
-            "Fajr": "5.40 am"
+            "Isha": "7.58 pm",
+            "Maghrib": "6.03 pm",
+            "Asr": "4.06 pm",
+            "Zuhr": "12.20 pm",
+            "Sunrise": "6.38 am",
+            "Fajr": "4.43 am"
         },
-        "date": "Tue 9 Feb 2021"
+        "date": "Mon 8 Mar 2021"
     },
     {
         "jamaat": {
-            "Isha": "7.45 pm",
-            "Maghrib": "5.12 pm",
-            "Asr": "4.00 pm",
+            "Isha": "8.30 pm",
+            "Maghrib": "6.04 pm",
+            "Asr": "4.45 pm",
             "Zuhr": "1.00 pm",
-            "Fajr": "6.45 am"
+            "Fajr": "5.45 am"
         },
-        "zawaal": "11.25 am",
+        "zawaal": "11.22 am",
         "starts": {
-            "Isha": "7.09 pm",
-            "Maghrib": "5.12 pm",
-            "Asr": "3.21 pm",
-            "Zuhr": "12.24 pm",
-            "Sunrise": "7.35 am",
-            "Fajr": "5.38 am"
+            "Isha": "8.00 pm",
+            "Maghrib": "6.04 pm",
+            "Asr": "4.07 pm",
+            "Zuhr": "12.20 pm",
+            "Sunrise": "6.35 am",
+            "Fajr": "4.41 am"
         },
-        "date": "Wed 10 Feb 2021"
+        "date": "Tue 9 Mar 2021"
     },
     {
         "jamaat": {
-            "Isha": "7.45 pm",
-            "Maghrib": "5.14 pm",
-            "Asr": "4.00 pm",
+            "Isha": "8.30 pm",
+            "Maghrib": "6.06 pm",
+            "Asr": "4.45 pm",
             "Zuhr": "1.00 pm",
-            "Fajr": "6.45 am"
+            "Fajr": "5.45 am"
         },
-        "zawaal": "11.25 am",
+        "zawaal": "11.22 am",
         "starts": {
-            "Isha": "7.11 pm",
-            "Maghrib": "5.14 pm",
-            "Asr": "3.23 pm",
-            "Zuhr": "12.24 pm",
-            "Sunrise": "7.33 am",
-            "Fajr": "5.37 am"
+            "Isha": "8.02 pm",
+            "Maghrib": "6.06 pm",
+            "Asr": "4.09 pm",
+            "Zuhr": "12.20 pm",
+            "Sunrise": "6.33 am",
+            "Fajr": "4.38 am"
         },
-        "date": "Thu 11 Feb 2021"
+        "date": "Wed 10 Mar 2021"
     },
     {
         "jamaat": {
-            "Isha": "7.45 pm",
-            "Maghrib": "5.16 pm",
-            "Asr": "4.00 pm",
+            "Isha": "8.30 pm",
+            "Maghrib": "6.08 pm",
+            "Asr": "4.45 pm",
+            "Zuhr": "1.00 pm",
+            "Fajr": "5.45 am"
+        },
+        "zawaal": "11.21 am",
+        "starts": {
+            "Isha": "8.04 pm",
+            "Maghrib": "6.08 pm",
+            "Asr": "4.11 pm",
+            "Zuhr": "12.19 pm",
+            "Sunrise": "6.31 am",
+            "Fajr": "4.35 am"
+        },
+        "date": "Thu 11 Mar 2021"
+    },
+    {
+        "jamaat": {
+            "Isha": "8.30 pm",
+            "Maghrib": "6.10 pm",
+            "Asr": "4.45 pm",
             "Zuhr": "12.45 pm",
-            "Fajr": "6.45 am"
+            "Fajr": "5.45 am"
         },
-        "zawaal": "11.25 am",
+        "zawaal": "11.21 am",
         "starts": {
-            "Isha": "7.13 pm",
-            "Maghrib": "5.16 pm",
-            "Asr": "3.25 pm",
-            "Zuhr": "12.24 pm",
-            "Sunrise": "7.31 am",
-            "Fajr": "5.35 am"
+            "Isha": "8.06 pm",
+            "Maghrib": "6.10 pm",
+            "Asr": "4.12 pm",
+            "Zuhr": "12.19 pm",
+            "Sunrise": "6.28 am",
+            "Fajr": "4.33 am"
         },
-        "date": "Fri 12 Feb 2021"
+        "date": "Fri 12 Mar 2021"
     },
     {
         "jamaat": {
-            "Isha": "8.00 pm",
-            "Maghrib": "5.18 pm",
-            "Asr": "4.00 pm",
+            "Isha": "8.45 pm",
+            "Maghrib": "6.12 pm",
+            "Asr": "5.00 pm",
             "Zuhr": "1.00 pm",
-            "Fajr": "6.30 am"
+            "Fajr": "5.30 am"
         },
-        "zawaal": "11.25 am",
+        "zawaal": "11.21 am",
         "starts": {
-            "Isha": "7.14 pm",
-            "Maghrib": "5.18 pm",
-            "Asr": "3.26 pm",
-            "Zuhr": "12.24 pm",
-            "Sunrise": "7.29 am",
-            "Fajr": "5.33 am"
+            "Isha": "8.08 pm",
+            "Maghrib": "6.12 pm",
+            "Asr": "4.14 pm",
+            "Zuhr": "12.19 pm",
+            "Sunrise": "6.26 am",
+            "Fajr": "4.30 am"
         },
-        "date": "Sat 13 Feb 2021"
+        "date": "Sat 13 Mar 2021"
     },
     {
         "jamaat": {
-            "Isha": "8.00 pm",
-            "Maghrib": "5.20 pm",
-            "Asr": "4.00 pm",
+            "Isha": "8.45 pm",
+            "Maghrib": "6.14 pm",
+            "Asr": "5.00 pm",
             "Zuhr": "1.00 pm",
-            "Fajr": "6.30 am"
+            "Fajr": "5.30 am"
         },
-        "zawaal": "11.25 am",
+        "zawaal": "11.20 am",
         "starts": {
-            "Isha": "7.16 pm",
-            "Maghrib": "5.20 pm",
-            "Asr": "3.28 pm",
-            "Zuhr": "12.24 pm",
-            "Sunrise": "7.27 am",
-            "Fajr": "5.31 am"
+            "Isha": "8.10 pm",
+            "Maghrib": "6.14 pm",
+            "Asr": "4.15 pm",
+            "Zuhr": "12.19 pm",
+            "Sunrise": "6.23 am",
+            "Fajr": "4.28 am"
         },
-        "date": "Sun 14 Feb 2021"
+        "date": "Sun 14 Mar 2021"
     },
     {
         "jamaat": {
-            "Isha": "8.00 pm",
-            "Maghrib": "5.22 pm",
-            "Asr": "4.00 pm",
+            "Isha": "8.45 pm",
+            "Maghrib": "6.16 pm",
+            "Asr": "5.00 pm",
             "Zuhr": "1.00 pm",
-            "Fajr": "6.30 am"
+            "Fajr": "5.30 am"
         },
-        "zawaal": "11.25 am",
+        "zawaal": "11.20 am",
         "starts": {
-            "Isha": "7.18 pm",
-            "Maghrib": "5.22 pm",
-            "Asr": "3.30 pm",
-            "Zuhr": "12.24 pm",
-            "Sunrise": "7.25 am",
-            "Fajr": "5.29 am"
+            "Isha": "8.12 pm",
+            "Maghrib": "6.16 pm",
+            "Asr": "4.17 pm",
+            "Zuhr": "12.18 pm",
+            "Sunrise": "6.21 am",
+            "Fajr": "4.25 am"
         },
-        "date": "Mon 15 Feb 2021"
+        "date": "Mon 15 Mar 2021"
     },
     {
         "jamaat": {
-            "Isha": "8.00 pm",
-            "Maghrib": "5.24 pm",
-            "Asr": "4.00 pm",
+            "Isha": "8.45 pm",
+            "Maghrib": "6.18 pm",
+            "Asr": "5.00 pm",
             "Zuhr": "1.00 pm",
-            "Fajr": "6.30 am"
+            "Fajr": "5.30 am"
         },
-        "zawaal": "11.25 am",
+        "zawaal": "11.19 am",
         "starts": {
-            "Isha": "7.20 pm",
-            "Maghrib": "5.24 pm",
-            "Asr": "3.32 pm",
-            "Zuhr": "12.24 pm",
-            "Sunrise": "7.23 am",
-            "Fajr": "5.27 am"
+            "Isha": "8.14 pm",
+            "Maghrib": "6.18 pm",
+            "Asr": "4.18 pm",
+            "Zuhr": "12.18 pm",
+            "Sunrise": "6.19 am",
+            "Fajr": "4.22 am"
         },
-        "date": "Tue 16 Feb 2021"
+        "date": "Tue 16 Mar 2021"
     },
     {
         "jamaat": {
-            "Isha": "8.00 pm",
-            "Maghrib": "5.26 pm",
-            "Asr": "4.00 pm",
+            "Isha": "8.45 pm",
+            "Maghrib": "6.19 pm",
+            "Asr": "5.00 pm",
             "Zuhr": "1.00 pm",
-            "Fajr": "6.30 am"
+            "Fajr": "5.30 am"
         },
-        "zawaal": "11.25 am",
+        "zawaal": "11.19 am",
         "starts": {
-            "Isha": "7.22 pm",
-            "Maghrib": "5.26 pm",
-            "Asr": "3.34 pm",
-            "Zuhr": "12.23 pm",
-            "Sunrise": "7.21 am",
-            "Fajr": "5.25 am"
+            "Isha": "8.17 pm",
+            "Maghrib": "6.19 pm",
+            "Asr": "4.20 pm",
+            "Zuhr": "12.18 pm",
+            "Sunrise": "6.16 am",
+            "Fajr": "4.20 am"
         },
-        "date": "Wed 17 Feb 2021"
+        "date": "Wed 17 Mar 2021"
     },
     {
         "jamaat": {
-            "Isha": "8.00 pm",
-            "Maghrib": "5.28 pm",
-            "Asr": "4.00 pm",
+            "Isha": "8.45 pm",
+            "Maghrib": "6.21 pm",
+            "Asr": "5.00 pm",
             "Zuhr": "1.00 pm",
-            "Fajr": "6.30 am"
+            "Fajr": "5.30 am"
         },
-        "zawaal": "11.25 am",
+        "zawaal": "11.18 am",
         "starts": {
-            "Isha": "7.23 pm",
-            "Maghrib": "5.28 pm",
-            "Asr": "3.35 pm",
-            "Zuhr": "12.23 pm",
-            "Sunrise": "7.19 am",
-            "Fajr": "5.24 am"
+            "Isha": "8.19 pm",
+            "Maghrib": "6.21 pm",
+            "Asr": "4.21 pm",
+            "Zuhr": "12.17 pm",
+            "Sunrise": "6.14 am",
+            "Fajr": "4.17 am"
         },
-        "date": "Thu 18 Feb 2021"
+        "date": "Thu 18 Mar 2021"
     },
     {
         "jamaat": {
-            "Isha": "8.00 pm",
-            "Maghrib": "5.30 pm",
-            "Asr": "4.00 pm",
+            "Isha": "8.45 pm",
+            "Maghrib": "6.23 pm",
+            "Asr": "5.00 pm",
             "Zuhr": "12.45 pm",
-            "Fajr": "6.30 am"
+            "Fajr": "5.30 am"
         },
-        "zawaal": "11.25 am",
+        "zawaal": "11.18 am",
         "starts": {
-            "Isha": "7.25 pm",
-            "Maghrib": "5.30 pm",
-            "Asr": "3.37 pm",
-            "Zuhr": "12.23 pm",
-            "Sunrise": "7.16 am",
-            "Fajr": "5.22 am"
+            "Isha": "8.21 pm",
+            "Maghrib": "6.23 pm",
+            "Asr": "4.23 pm",
+            "Zuhr": "12.17 pm",
+            "Sunrise": "6.11 am",
+            "Fajr": "4.14 am"
         },
-        "date": "Fri 19 Feb 2021"
+        "date": "Fri 19 Mar 2021"
     },
     {
         "jamaat": {
-            "Isha": "8.00 pm",
-            "Maghrib": "5.32 pm",
-            "Asr": "4.15 pm",
+            "Isha": "9.00 pm",
+            "Maghrib": "6.25 pm",
+            "Asr": "5.15 pm",
             "Zuhr": "1.00 pm",
-            "Fajr": "6.15 am"
-        },
-        "zawaal": "11.25 am",
-        "starts": {
-            "Isha": "7.27 pm",
-            "Maghrib": "5.32 pm",
-            "Asr": "3.39 pm",
-            "Zuhr": "12.23 pm",
-            "Sunrise": "7.14 am",
-            "Fajr": "5.19 am"
-        },
-        "date": "Sat 20 Feb 2021"
-    },
-    {
-        "jamaat": {
-            "Isha": "8.00 pm",
-            "Maghrib": "5.34 pm",
-            "Asr": "4.15 pm",
-            "Zuhr": "1.00 pm",
-            "Fajr": "6.15 am"
-        },
-        "zawaal": "11.25 am",
-        "starts": {
-            "Isha": "7.29 pm",
-            "Maghrib": "5.34 pm",
-            "Asr": "3.41 pm",
-            "Zuhr": "12.23 pm",
-            "Sunrise": "7.12 am",
-            "Fajr": "5.17 am"
-        },
-        "date": "Sun 21 Feb 2021"
-    },
-    {
-        "jamaat": {
-            "Isha": "8.00 pm",
-            "Maghrib": "5.36 pm",
-            "Asr": "4.15 pm",
-            "Zuhr": "1.00 pm",
-            "Fajr": "6.15 am"
-        },
-        "zawaal": "11.25 am",
-        "starts": {
-            "Isha": "7.31 pm",
-            "Maghrib": "5.36 pm",
-            "Asr": "3.42 pm",
-            "Zuhr": "12.23 pm",
-            "Sunrise": "7.10 am",
             "Fajr": "5.15 am"
         },
-        "date": "Mon 22 Feb 2021"
-    },
-    {
-        "jamaat": {
-            "Isha": "8.00 pm",
-            "Maghrib": "5.38 pm",
-            "Asr": "4.15 pm",
-            "Zuhr": "1.00 pm",
-            "Fajr": "6.15 am"
-        },
-        "zawaal": "11.25 am",
+        "zawaal": "11.18 am",
         "starts": {
-            "Isha": "7.33 pm",
-            "Maghrib": "5.38 pm",
-            "Asr": "3.44 pm",
-            "Zuhr": "12.23 pm",
-            "Sunrise": "7.08 am",
-            "Fajr": "5.13 am"
+            "Isha": "8.23 pm",
+            "Maghrib": "6.25 pm",
+            "Asr": "4.24 pm",
+            "Zuhr": "12.17 pm",
+            "Sunrise": "6.09 am",
+            "Fajr": "4.11 am"
         },
-        "date": "Tue 23 Feb 2021"
+        "date": "Sat 20 Mar 2021"
     },
     {
         "jamaat": {
-            "Isha": "8.00 pm",
-            "Maghrib": "5.40 pm",
-            "Asr": "4.15 pm",
+            "Isha": "9.00 pm",
+            "Maghrib": "6.27 pm",
+            "Asr": "5.15 pm",
             "Zuhr": "1.00 pm",
-            "Fajr": "6.15 am"
+            "Fajr": "5.15 am"
         },
-        "zawaal": "11.25 am",
+        "zawaal": "11.17 am",
         "starts": {
-            "Isha": "7.34 pm",
-            "Maghrib": "5.40 pm",
-            "Asr": "3.46 pm",
-            "Zuhr": "12.23 pm",
-            "Sunrise": "7.05 am",
-            "Fajr": "5.11 am"
+            "Isha": "8.25 pm",
+            "Maghrib": "6.27 pm",
+            "Asr": "4.26 pm",
+            "Zuhr": "12.17 pm",
+            "Sunrise": "6.06 am",
+            "Fajr": "4.08 am"
         },
-        "date": "Wed 24 Feb 2021"
+        "date": "Sun 21 Mar 2021"
     },
     {
         "jamaat": {
-            "Isha": "8.00 pm",
-            "Maghrib": "5.42 pm",
-            "Asr": "4.15 pm",
+            "Isha": "9.00 pm",
+            "Maghrib": "6.29 pm",
+            "Asr": "5.15 pm",
             "Zuhr": "1.00 pm",
-            "Fajr": "6.15 am"
+            "Fajr": "5.15 am"
         },
-        "zawaal": "11.25 am",
+        "zawaal": "11.17 am",
         "starts": {
-            "Isha": "7.36 pm",
-            "Maghrib": "5.42 pm",
-            "Asr": "3.48 pm",
-            "Zuhr": "12.22 pm",
-            "Sunrise": "7.03 am",
-            "Fajr": "5.09 am"
+            "Isha": "8.28 pm",
+            "Maghrib": "6.29 pm",
+            "Asr": "4.27 pm",
+            "Zuhr": "12.16 pm",
+            "Sunrise": "6.04 am",
+            "Fajr": "4.06 am"
         },
-        "date": "Thu 25 Feb 2021"
+        "date": "Mon 22 Mar 2021"
     },
     {
         "jamaat": {
-            "Isha": "8.00 pm",
-            "Maghrib": "5.44 pm",
-            "Asr": "4.15 pm",
+            "Isha": "9.00 pm",
+            "Maghrib": "6.30 pm",
+            "Asr": "5.15 pm",
+            "Zuhr": "1.00 pm",
+            "Fajr": "5.15 am"
+        },
+        "zawaal": "11.16 am",
+        "starts": {
+            "Isha": "8.30 pm",
+            "Maghrib": "6.30 pm",
+            "Asr": "4.29 pm",
+            "Zuhr": "12.16 pm",
+            "Sunrise": "6.02 am",
+            "Fajr": "4.03 am"
+        },
+        "date": "Tue 23 Mar 2021"
+    },
+    {
+        "jamaat": {
+            "Isha": "9.00 pm",
+            "Maghrib": "6.32 pm",
+            "Asr": "5.15 pm",
+            "Zuhr": "1.00 pm",
+            "Fajr": "5.15 am"
+        },
+        "zawaal": "11.16 am",
+        "starts": {
+            "Isha": "8.32 pm",
+            "Maghrib": "6.32 pm",
+            "Asr": "4.30 pm",
+            "Zuhr": "12.16 pm",
+            "Sunrise": "5.59 am",
+            "Fajr": "4.00 am"
+        },
+        "date": "Wed 24 Mar 2021"
+    },
+    {
+        "jamaat": {
+            "Isha": "9.00 pm",
+            "Maghrib": "6.34 pm",
+            "Asr": "5.15 pm",
+            "Zuhr": "1.00 pm",
+            "Fajr": "5.15 am"
+        },
+        "zawaal": "11.15 am",
+        "starts": {
+            "Isha": "8.35 pm",
+            "Maghrib": "6.34 pm",
+            "Asr": "4.31 pm",
+            "Zuhr": "12.15 pm",
+            "Sunrise": "5.57 am",
+            "Fajr": "3.57 am"
+        },
+        "date": "Thu 25 Mar 2021"
+    },
+    {
+        "jamaat": {
+            "Isha": "9.00 pm",
+            "Maghrib": "6.36 pm",
+            "Asr": "5.15 pm",
             "Zuhr": "12.45 pm",
-            "Fajr": "6.15 am"
+            "Fajr": "5.15 am"
         },
-        "zawaal": "11.25 am",
+        "zawaal": "11.15 am",
         "starts": {
-            "Isha": "7.38 pm",
-            "Maghrib": "5.44 pm",
-            "Asr": "3.49 pm",
-            "Zuhr": "12.22 pm",
-            "Sunrise": "7.01 am",
-            "Fajr": "5.07 am"
+            "Isha": "8.37 pm",
+            "Maghrib": "6.36 pm",
+            "Asr": "4.33 pm",
+            "Zuhr": "12.15 pm",
+            "Sunrise": "5.54 am",
+            "Fajr": "3.54 am"
         },
-        "date": "Fri 26 Feb 2021"
+        "date": "Fri 26 Mar 2021"
     },
     {
         "jamaat": {
-            "Isha": "8.15 pm",
-            "Maghrib": "5.45 pm",
-            "Asr": "4.30 pm",
+            "Isha": "9.15 pm",
+            "Maghrib": "6.38 pm",
+            "Asr": "5.15 pm",
             "Zuhr": "1.00 pm",
-            "Fajr": "6.00 am"
+            "Fajr": "5.00 am"
         },
-        "zawaal": "11.24 am",
+        "zawaal": "11.14 am",
         "starts": {
-            "Isha": "7.40 pm",
-            "Maghrib": "5.45 pm",
-            "Asr": "3.51 pm",
-            "Zuhr": "12.22 pm",
-            "Sunrise": "6.59 am",
-            "Fajr": "5.04 am"
+            "Isha": "8.39 pm",
+            "Maghrib": "6.38 pm",
+            "Asr": "4.34 pm",
+            "Zuhr": "12.15 pm",
+            "Sunrise": "5.52 am",
+            "Fajr": "3.51 am"
         },
-        "date": "Sat 27 Feb 2021"
+        "date": "Sat 27 Mar 2021"
     },
     {
         "jamaat": {
-            "Isha": "8.15 pm",
-            "Maghrib": "5.47 pm",
-            "Asr": "4.30 pm",
-            "Zuhr": "1.00 pm",
+            "Isha": "10.15 pm",
+            "Maghrib": "7.40 pm",
+            "Asr": "6.15 pm",
+            "Zuhr": "2.00 pm",
             "Fajr": "6.00 am"
         },
-        "zawaal": "11.24 am",
+        "zawaal": "12.13 am",
         "starts": {
-            "Isha": "7.42 pm",
-            "Maghrib": "5.47 pm",
-            "Asr": "3.53 pm",
-            "Zuhr": "12.22 pm",
-            "Sunrise": "6.56 am",
-            "Fajr": "5.02 am"
+            "Isha": "9.42 pm",
+            "Maghrib": "7.40 pm",
+            "Asr": "5.36 pm",
+            "Zuhr": "1.14 pm",
+            "Sunrise": "6.49 am",
+            "Fajr": "4.48 am"
         },
-        "date": "Sun 28 Feb 2021"
+        "date": "Sun 28 Mar 2021"
+    },
+    {
+        "jamaat": {
+            "Isha": "10.15 pm",
+            "Maghrib": "7.41 pm",
+            "Asr": "6.15 pm",
+            "Zuhr": "2.00 pm",
+            "Fajr": "6.00 am"
+        },
+        "zawaal": "12.13 am",
+        "starts": {
+            "Isha": "9.44 pm",
+            "Maghrib": "7.41 pm",
+            "Asr": "5.37 pm",
+            "Zuhr": "1.14 pm",
+            "Sunrise": "6.47 am",
+            "Fajr": "4.45 am"
+        },
+        "date": "Mon 29 Mar 2021"
+    },
+    {
+        "jamaat": {
+            "Isha": "10.15 pm",
+            "Maghrib": "7.43 pm",
+            "Asr": "6.15 pm",
+            "Zuhr": "2.00 pm",
+            "Fajr": "6.00 am"
+        },
+        "zawaal": "12.12 am",
+        "starts": {
+            "Isha": "9.46 pm",
+            "Maghrib": "7.43 pm",
+            "Asr": "5.38 pm",
+            "Zuhr": "1.14 pm",
+            "Sunrise": "6.45 am",
+            "Fajr": "4.42 am"
+        },
+        "date": "Tue 30 Mar 2021"
+    },
+    {
+        "jamaat": {
+            "Isha": "10.15 pm",
+            "Maghrib": "7.45 pm",
+            "Asr": "6.15 pm",
+            "Zuhr": "2.00 pm",
+            "Fajr": "6.00 am"
+        },
+        "zawaal": "12.12 am",
+        "starts": {
+            "Isha": "9.49 pm",
+            "Maghrib": "7.45 pm",
+            "Asr": "5.40 pm",
+            "Zuhr": "1.14 pm",
+            "Sunrise": "6.42 am",
+            "Fajr": "4.39 am"
+        },
+        "date": "Wed 31 Mar 2021"
     }
 ]
