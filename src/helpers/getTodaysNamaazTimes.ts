@@ -75,7 +75,7 @@ export const getNamaaz = (): CurrentAndNextNamaaz => {
     const today = getNamaazTimes(moment());
     const tomorrow = getNamaazTimes(moment().add(1, 'day'));
 
-    const inFajr = moment().isSameOrAfter(today?.fajr) && moment().isBefore(today?.sunrise);
+    const inFajr = moment().isBefore(today?.sunrise);
     const inZuhr = moment().isSameOrAfter(today?.zuhr) && moment().isBefore(today?.asr);
     const inAsr = moment().isSameOrAfter(today?.asr) && moment().isBefore(today?.maghrib);
     const inMaghrib = moment().isSameOrAfter(today?.maghrib) && moment().isBefore(today?.isha);
